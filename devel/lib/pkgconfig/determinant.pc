@@ -1,0 +1,8 @@
+prefix=/home/vilgiz/homework_ws/devel
+
+Name: determinant
+Description: Description of determinant
+Version: 0.0.0
+Cflags: -I/home/vilgiz/homework_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

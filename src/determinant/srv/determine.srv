@@ -1,0 +1,11 @@
+float32 a_11
+float32 a_12
+float32 a_13
+float32 a_21
+float32 a_22
+float32 a_23
+float32 a_31
+float32 a_32
+float32 a_33
+---
+float64 result
