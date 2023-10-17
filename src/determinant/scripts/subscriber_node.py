@@ -4,8 +4,13 @@ from determinant.msg import Determinant_msg
 
 
 def callback(data):
-    rospy.loginfo(
-        f"determinant is: {data.result}")
+    if data.result % 2 == 0:
+        rospy.loginfo(
+            "even")
+    else:
+        rospy.loginfo(
+            "odd")
+    
 
 
 def listener():
